@@ -1,0 +1,35 @@
+/* Style stylesheet for Code-a-Pookalam */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #161519;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+canvas {
+    display: block;
+    max-width: 96vw;
+    max-height: 96vh;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
